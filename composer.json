@@ -1,0 +1,13 @@
+{
+  "name": "asuwebplatforms/webspark_module_asu_breadcrumb",
+  "description": "Provides a breadcrumb block for ASU",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Anthony Averill",
+      "email": "anthony.averill@deptagency.com"
+    }
+  ],
+  "require": {}
+}
