@@ -11,7 +11,7 @@ use Drupal\Core\Form\FormStateInterface;
  * @Block(
  *   id = "webspark_module_asu_breadcrumb",
  *   admin_label = @Translation("ASU Breadcrumb"),
- *   category = @Translation("System")
+ *   category = @Translation("ASU Breadcrumb")
  * )
  */
 class AsuBreadcrumb extends SystemBreadcrumbBlock {
@@ -28,10 +28,10 @@ class AsuBreadcrumb extends SystemBreadcrumbBlock {
       '#type' => 'select',
       '#title' => $this->t('Select color'),
       '#options' => [
-        'default' => $this->t('White'),
-        'gray1' => $this->t('Light Gray'),
-        'gray2' => $this->t('Gray'),
-        'gray7' => $this->t('Black'),
+        'bg-white' => $this->t('White'),
+        'bg-gray-1' => $this->t('Light Gray'),
+        'bg-gray-2' => $this->t('Gray'),
+        'bg-gray-7' => $this->t('Black'),
       ],
       '#default_value' => isset($config['color']) ? $config['color']: 'default',
     ];
