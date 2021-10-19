@@ -33,7 +33,7 @@ class AsuBreadcrumb extends SystemBreadcrumbBlock
         'bg-white' => $this->t('White'),
         'bg-gray-1' => $this->t('Gray 1'),
         'bg-gray-2' => $this->t('Gray 2'),
-        'bg-gray-7' => $this->t('Black'),
+        'bg-gray-7' => $this->t('Gray 7'),
       ],
       '#default_value' => isset($config['color']) ? $config['color'] : 'default',
     ];
